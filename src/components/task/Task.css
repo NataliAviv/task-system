@@ -1,0 +1,81 @@
+.task-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self:center;
+    height:14vh;
+    line-height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 26vw;
+    border-radius: 10px;
+    border: 1px solid #ffff;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.task-name{
+    font-size: 2.5vh ;
+    margin-top:-1.2vh;
+    font-style: bold;
+    text-align: center;
+    color: #006bb3;
+}
+
+.task-description{
+    height: auto;
+    font-size: 1.7vh;
+    margin-top:4px;
+    margin-left:5px;
+}
+
+.task-status{
+    width:80px;
+    margin-left:10px;
+    opacity: 0.7;
+    background-color: #006bb3;
+    text-align: center;
+}
+.description-status-buttons-container{
+text-align: left;
+}
+.status-buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:10px;
+}
+.task-date-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size:1.5vh;
+    margin-top:-1.2vh;
+}
+
+.buttons-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #006bb3;
+}
+
+.start-date{
+margin-left: 10px;
+}
+
+.end-date{
+    margin-left: 10px;
+
+}
+
+.icon-button{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-button:active{
+    opacity: 0.2;
+}

@@ -1,0 +1,33 @@
+.MuiDialog-paper{
+  padding-bottom: 20px; 
+  justify-content: center;
+  text-align: center;
+}
+.select-drop-down{
+  width:180px;
+  margin-bottom: 10px;
+  margin-top:10px !important;
+}
+.dates-inputs-container{
+  display: flex;
+  padding:40px;
+  flex-direction: column;
+}
+.description-input{
+  margin-bottom: 20px;
+}
+
+.button-alert{
+  border: 1px solid red;
+  background-color: transparent;
+  border-radius: 9px;
+  color: red;
+  padding :10px;
+}
+
+.button-alert:hover{
+  background-color: rgba(251, 237, 235,0.5);
+}
+.title{
+  color:#006bb3;
+}

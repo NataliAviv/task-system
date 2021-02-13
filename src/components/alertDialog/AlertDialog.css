@@ -1,0 +1,18 @@
+.alert-dialog-container {
+  background-color: red;
+}
+.buttons-design {
+  display: flex;
+  align-self: flex-end;
+}
+.button-alert {
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+.alert-icon {
+  color: red;
+  margin-right: 10px;
+}
+.text-alert {
+  padding: 30px;
+}

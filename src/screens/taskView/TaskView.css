@@ -1,0 +1,56 @@
+.title-design{
+    text-align: center;
+    font-size:4vh;
+    color: #006bb3;
+}
+.add-search-container{
+    background-color: #f2f2f2;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center !important;
+}
+.tasks-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.search-input{
+    margin-right:20px;
+}
+.columns-container{
+    width: 30vw;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.col-container{
+    flex-direction: column;
+    height: 80vh;
+    position: relative;
+    overflow: scroll !important;
+    background-color:  #f2f2f2;
+    margin-right: 10px;
+}
+.icon{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.icon:active{
+    opacity: 0.2;
+}
+.col-title{
+    font-size: 22px;
+}
+.plus{
+    justify-content: flex-start;
+    margin-left: 30px;
+    color: #006bb3;
+}
+.search-input{
+    justify-content: flex-end;
+    right: 0;
+}
